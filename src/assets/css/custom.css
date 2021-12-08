@@ -1,0 +1,59 @@
+body {
+  background: #fbfbff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  --bs-table-accent-bg: #e0f3e4;
+  color: var(--bs-table-striped-color);
+}
+.navbar-brand-box {
+  padding: 0 1.5rem;
+  width: 250px;
+  background: #fff;
+  border-right: none;
+}
+#page-topbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1002;
+  background-color: #fff;
+  border-bottom: 1px solid #f1f1f1;
+}
+.dropdown-menu-end {
+  right: 0px !important;
+}
+.navbar-expand-lg .navbar-nav {
+  flex-wrap: wrap;
+}
+.topnav {
+  background: #fff;
+  box-shadow: 0 4px 6px 0 rgb(12 0 46 / 8%);
+}
+.work-card {
+  margin: 10px;
+  padding: 30px 20px;
+  max-height: 170px;
+  text-align: center;
+  min-height: 170px;
+  border-radius: 8px 40px;
+  -webkit-box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
+    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
+    0 25px 40px -30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
+    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
+    0 25px 40px -30px rgba(0, 0, 0, 0.2);
+}
+.header-item,
+.header-item:hover {
+  color: #000;
+}
+.card-content img {
+  width: 100%;
+}
+.desktop-only {
+  display: block;
+}
+.mobile-only {
+  display: none;
+}
