@@ -1,41 +1,32 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Link } from "react-router-dom";
 
-const BreadCrumb = ({ title, mainLinkTitle, mainLinkUrl, activeLink }) => {
+const BreadCrumb = ({ title }) => {
   return (
-    <div>
-      <div id="miniaresult" style={{ marginTop: "50px" }}>
-        <div className="page-content">
-          <div className="container-fluid">
-            {/* start page title */}
-            <div className="row">
-              <div className="col-12">
-                <div
-                  className="page-title-box d-sm-flex align-items-center
-              justify-content-between"
-                >
-                  <h4 className="mb-sm-0 font-size-18">{title}</h4>
-                  <div className="page-title-right">
-                    <ol className="breadcrumb m-0">
-                      <li className="breadcrumb-item">
-                        <Link to={mainLinkUrl}>
-                          {mainLinkTitle ? mainLinkTitle : "Dashboard"}
-                        </Link>
-                      </li>
-                      <li className="breadcrumb-item active">{activeLink}</li>
-                    </ol>
-                  </div>
-                </div>
+    <>
+      {/* <section className="page-header ">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="page-header-main">
+              <h1> {title} </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> */}
+      <section style={{ padding: "20px" }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="">
+                <h3 class="details ">{title}</h3>
               </div>
             </div>
-            {/* end page title */}
-          </div>{" "}
-          {/* container-fluid */}
+          </div>
         </div>
-        {/* End Page-content */}
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 

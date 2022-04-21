@@ -1,0 +1,7 @@
+export const GET_RELEASES = "GET_RELEASES";
+export const FILTER_RELEASES = "FILTER_RELEASES";
+export const ADD_RELEASE = "ADD_RELEASE";
+export const EDIT_RELEASE = "EDIT_RELEASE";
+export const GET_RELEASE = "GET_RELEASE";
+export const RESET_RELEASE = "RESET_RELEASE";
+export const RELEASES_ERROR = "RELEASES_ERROR";

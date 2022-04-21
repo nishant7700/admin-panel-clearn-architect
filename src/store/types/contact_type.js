@@ -1,0 +1,7 @@
+export const GET_CONTACTS = "GET_CONTACTS";
+export const FILTER_CONTACTS = "FILTER_CONTACTS";
+export const ADD_CONTACT = "ADD_CONTACT";
+export const EDIT_CONTACT = "EDIT_CONTACT";
+export const GET_CONTACT = "GET_CONTACT";
+export const RESET_CONTACT = "RESET_CONTACT";
+export const CONTACTS_ERROR = "CONTACTS_ERROR";

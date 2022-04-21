@@ -1,0 +1,73 @@
+@media only screen and (max-width: 600px) {
+  .main-testi-flex {
+    flex-direction: column;
+  }
+  .main-testi-flex img {
+    max-width: 100%;
+  }
+  .main-testi-flex img {
+    max-width: 100%;
+  }
+  .featured-item img {
+    max-width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+  }
+  .vl {
+    display: none;
+  }
+  .banner {
+    background: url('../images/banner.png') center center;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .btn-donate-lg {
+    background: var(--main-bg-color);
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    font-weight: 600;
+    box-shadow: rgba(255, 111, 17, 0.15) 0px 5px 15px 0px;
+  }
+  .join-mission h2 {
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+  }
+  .icon-flex {
+    padding-bottom: 25px;
+  }
+  .sec-heading h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .who-we {
+    background: url('../images/who-we.png') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 25px;
+  }
+  .ptb-50 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .main-trust-flex {
+    display: flex;
+    padding-left: 20%;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .content {
+    padding-bottom: 20px;
+  }
+}

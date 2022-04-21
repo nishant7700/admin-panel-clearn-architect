@@ -169,7 +169,7 @@ nav {
 }
 .btn-donate:hover {
   background: var(--primary-color);
-  color: #fff;
+  color: #fff !important;
   transition-delay: 0.1s;
   transition-duration: 0.5s;
 }
